@@ -1,0 +1,64 @@
+App Component CSS Module (App.module.css):
+
+.quiz-app {
+  text-align: center;
+  margin: 2rem;
+}
+.question {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.question h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.options li {
+  list-style: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options li:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #66bb6a;
+  color: white;
+}
+Score Component CSS Module (Score.module.css):Question Component CSS Module (Question.module.css):
+.score {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+Finish Component CSS Module (Finish.module.css):.finish {
+  text-align: center;
+  margin: 2rem;
+}
+
+.finish h2 {
+  font-size: 1.5rem;
+}
+
+.finish p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.finish button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.finish button:hover {
+  background-color: #1976d2;
+}
